@@ -7,11 +7,11 @@
   {%- assign page_description = page.description | default: site.description -%}
   
   <!-- UiKit CSS -->
-  <link rel="stylesheet" href="{{ "/assets/css/uikit.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/uikit.min.css" | prepend: site.baseurl }}">
  
   <!-- UiKit Javascript -->
-  <script type="text/javascript" src="{{ "/assets/js/uikit.min.js " | relative_url }}"></script>
-  <script type="text/javascript" src="{{ "/assets/js/uikit-icons.min.js " | relative_url }}"></script>
+  <script type="text/javascript" src="{{ "/assets/js/uikit.min.js " | prepend: site.baseurl }}"></script>
+  <script type="text/javascript" src="{{ "/assets/js/uikit-icons.min.js " | prepend: site.baseurl }}"></script>
   
 </head>
 </head>
