@@ -1,11 +1,9 @@
 
-<!DOCTYPE html>
-<html>
 <head>
   <title>A Meaningful Page Title</title>
   {%- assign page_title = page.title | default: site.title -%}
   {%- assign page_description = page.description | default: site.description -%}
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
   <!-- UiKit CSS -->
   <link rel="stylesheet" href="{{ "/assets/css/uikit.min.css" | prepend: site.baseurl }}">
  
@@ -14,4 +12,4 @@
   <script type="text/javascript" src="{{ "/assets/js/uikit-icons.min.js " | prepend: site.baseurl }}"></script>
   
 </head>
-</head>
+
