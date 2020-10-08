@@ -4,12 +4,11 @@
   {%- assign page_title = page.title | default: site.title -%}
   {%- assign page_description = page.description | default: site.description -%}
 
-  <!-- UiKit CSS -->
-  <link rel="stylesheet" href="{{ "/assets/css/uikit.min.css" | prepend: site.baseurl }}">
- 
-  <!-- UiKit Javascript -->
-  <script type="text/javascript" src="{{ "/assets/js/uikit.min.js " | prepend: site.baseurl }}"></script>
-  <script type="text/javascript" src="{{ "/assets/js/uikit-icons.min.js " | prepend: site.baseurl }}"></script>
-  
+  <!-- UIkit CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/css/uikit.min.css" />
+
+  <!-- UIkit JS -->
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.8/dist/js/uikit-icons.min.js"></script>
 </head>
 
